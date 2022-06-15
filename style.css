@@ -1,0 +1,153 @@
+body{
+    margin:  0;
+    padding: 0;
+    display: flex;
+    min-height: 80vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #F8F9F9;
+    font-family: sans-serif;
+}
+.container{
+    text-align: center;
+}
+.text{
+    
+color: #F8F9F9;
+letter-spacing: 1px;
+margin: 18px; 
+}
+.page{
+    
+width:350px;
+background: #fff;
+border-radius: 5px;
+padding-bottom: 15px;
+}
+.logo{
+  display:block;
+margin: 0 auto 5px;
+}
+form{
+ width: 75%;
+display: flex;
+flex-direction: column;
+position: relative;
+left: 50%;
+transform: translateX(-50%);   
+}
+form input {
+margin-bottom: 5px;
+border: 1px solid rgba (0,0,0,0.4);
+border-radius: 3px;
+outline: none;
+    
+}
+form input :focus{
+border: 1px solid rgba(0,0,0,0.7);
+background: #efefef; 
+}
+input[type="text"],input[type="text"]{
+ padding-left: 10px;
+position: relative;
+height: 35px;
+font-size: 17px;    
+}
+input::placeholder{
+font-weight:normal;
+font-size: 13px; 
+transition:0.3s ease;    
+}
+input:focus::placeholder{
+position:absolute
+font-size:10px;
+transform: translateY(-13px);
+}
+form button{    
+border: none;
+background: #0095f6;
+padding: 13px 0;
+margin-top: 10px;
+color: #fff;
+border-radius: 3px;
+font-weight: bold;
+text-transform: capitalize;
+letter-spacing: 1px;
+outline: none;
+cursor: pointer;
+}
+form button:active{
+background: #2c58fe;
+transform: scaleX(0.995);  
+}
+form.option{
+color:#5a5a5a;
+margin: 70px ;
+font-weight: bold;
+position:relative;
+}
+form .option::before{
+position: absolute;    
+content:  '';
+width: 37%;
+height: 2px;
+background:#b6b6b6; 
+left:0%;
+top: 95%;
+transform: translateY(-50%);
+border-radius: 50px;
+
+}
+form .option::after{
+position: absolute;    
+content:  '';
+width: 37%;
+height: 2px;
+background:#b6b6b6; 
+right:0%;
+top: 95%;
+transform: translateY(-50%);
+border-radius: 50px;
+
+}
+.fblink{
+    margin-top: 30px;
+    width: 100%
+}
+.fblink span{
+    font-size: 18px;
+    color: #021897;
+    margin-right: 5px;
+    
+}
+.fblink a{
+  text-decoration: none;
+font-weight: bold;
+color: #021897; 
+}
+.forget-id{
+    margin: 15px;   
+}
+.forget-id a{
+    text-decoration: none;
+    color: #021897;
+    font-size: 12px;
+    font-weight: 500;
+    
+}
+.page .singup{
+    position:relative;
+    border:1px solid #b6b6b6;
+    border-radius: 2px;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 25px;
+}
+.singup a{
+    text-decoration: none;
+    margin-left: 5px;
+    color: #008aff;
+    font-weight: bold;
+    
+}
