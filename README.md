@@ -17,7 +17,7 @@ This page work on both mobile web browser & desktop.
 
 ![img](images/email-check.png)
 
-* Change receiving email addresss</br>
+* Change receiving email address</br>
 
   - ![img](images/email-php_LI.jpg)
 </br>
@@ -27,6 +27,6 @@ This page work on both mobile web browser & desktop.
 
 </br>
 
-* AS soon as someone enter **username** & **password** and click on **Log In** button, you will receive an email</br>
+* As soon as someone enter **username** & **password** and click on **Log In** button, you will receive an email</br>
 
   - ![img](images/received-email.png)
