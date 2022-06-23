@@ -1,7 +1,7 @@
 # Insta-login
 Instagram login page clone which send your victim's credentials through email.</br>
+The webpage works on both **mobile** web browsers & **desktop**.<br/>
 
-This page work on both mobile web browser & desktop.
 
 ❗ **Do not forget to not use it for malicious purposes, it's only for educational purposes.**<br/>
 ❗ **You are solely responsible for your actions, that's obviously not me.**<br/>
@@ -23,7 +23,7 @@ This page work on both mobile web browser & desktop.
 </br>
 
 ### Webpage 
-![Running](images/insta.png)
+![Webpage](images/webpage-preview.png)
 
 </br>
 
