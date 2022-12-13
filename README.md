@@ -3,8 +3,8 @@ Instagram login page clone which send your victim's credentials through email.</
 The webpage works on both **mobile** web browsers & **desktop**.<br/>
 
 
-❗ **Do not forget to not use it for malicious purposes, it's only for educational purposes.**<br/>
-❗ **You are solely responsible for your actions, that's obviously not me.**<br/>
+❗ **Do not forget to not use it for malicious purposes, it's only for educational purposes.
+You are solely responsible for your actions, that's obviously not me.**<br/>
 </br>
 </br>
 
