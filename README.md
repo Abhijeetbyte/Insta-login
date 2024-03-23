@@ -14,8 +14,8 @@ You are solely responsible for your actions, that's obviously not me.**<br/>
 
 * Extract the zip and upload the website on your hosting server
 
-  - Here I am using a free hosting service, that hosting service supports - **PHP Version Selection** and
- **PHP mail()** Features
+  - Here I am using a free hosting service, that supports - PHP Version Selection and
+ PHP mail() Features
 
 
 ![image](https://github.com/Abhijeetbyte/Insta-login/assets/80936610/cebdace5-114a-4a3c-bc5b-31030b8a3547)
