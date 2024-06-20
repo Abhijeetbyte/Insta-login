@@ -34,3 +34,18 @@ You are solely responsible for your actions, that's obviously not me.**<br/>
 * As soon as someone enter **username** & **password** and click on **Log In** button, you will receive an email</br>
 
   - ![img](images/received-email.png)
+ 
+
+<br/>
+
+
+**Important Note:**
+
+This example demonstrates a highly unethical practice of phishing, which is illegal and punishable by law. Unauthorized collection of personal data can lead to severe legal consequences, including imprisonment and substantial fines. This information is provided solely for educational purposes to understand and recognize phishing tactics. Always use your technical skills responsibly and legally.
+
+
+
+
+
+
+
